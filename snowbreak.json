@@ -10,5 +10,17 @@
         "directory": "chars/Bubu",
         "image": "Bubu.png",
         "pmx": "卜卜-元气愈养.pmx"
+    },
+    {
+        "id": 70002,
+        "name": "Longyan",
+        "weaponType": "",
+        "element": "Snowbreak",
+        "gender": "Female",
+        "region": "",
+        "rarity": 5,
+        "directory": "chars/Longyan",
+        "image": "Longyan.png",
+        "pmx": "胧嫣-瑞狐 珠光曳影a1.0.pmx"
     }
 ]
