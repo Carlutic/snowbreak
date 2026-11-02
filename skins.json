@@ -102,5 +102,57 @@
         "directory": "chars/Qing02",
         "image": "Snowbreak/Qing02.png",
         "pmx": "晴-霆光 清光虔愿丝袜a1.0.pmx"
+    },
+    {
+        "id": 70109,
+        "name": "Cheno01",
+        "displayName": "悖谬-见习侍奉（无裙子版）",
+        "weaponType": "",
+        "element": "Snowbreak",
+        "gender": "Female",
+        "region": "",
+        "rarity": 5,
+        "directory": "chars/Cheno01",
+        "image": "Snowbreak/Cheno01.png",
+        "pmx": "悖谬-见习侍奉（无裙子版）.pmx"
+    },
+    {
+        "id": 70110,
+        "name": "Fenny05",
+        "displayName": "咎冠-甜蜜统治（新版）",
+        "weaponType": "",
+        "element": "Snowbreak",
+        "gender": "Female",
+        "region": "",
+        "rarity": 5,
+        "directory": "chars/Fenny05",
+        "image": "Snowbreak/Fenny05.png",
+        "pmx": "咎冠-甜蜜统治（新版）.pmx"
+    },
+    {
+        "id": 70111,
+        "name": "Fritia05",
+        "displayName": "芙提雅-驰掣 草莓甜心（权重裙）",
+        "weaponType": "",
+        "element": "Snowbreak",
+        "gender": "Female",
+        "region": "",
+        "rarity": 5,
+        "directory": "chars/Fritia05",
+        "image": "Snowbreak/Fritia05.png",
+        "pmx": "芙提雅-驰掣 草莓甜心权重裙a1.0.pmx"
+    },
+    {
+        "id": 70112,
+        "name": "Tess03",
+        "displayName": "苔丝-流放欢愉（无外套版）",
+        "weaponType": "",
+        "element": "Snowbreak",
+        "gender": "Female",
+        "region": "",
+        "rarity": 5,
+        "directory": "chars/Tess03",
+        "image": "Snowbreak/Tess03.png",
+        "pmx": "苔丝-流放欢愉（无外套版）.pmx"
     }
 ]
