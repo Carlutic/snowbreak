@@ -1,1 +1,106 @@
-[]
+[
+    {
+        "id": 70101,
+        "name": "Acacia01",
+        "displayName": "安卡希雅-叶荫闲趣（权重裙）",
+        "weaponType": "",
+        "element": "Snowbreak",
+        "gender": "Female",
+        "region": "",
+        "rarity": 5,
+        "directory": "chars/Acacia01",
+        "image": "Snowbreak/Acacia01.png",
+        "pmx": "安卡希雅-叶荫闲趣 a1.0权重裙.pmx"
+    },
+    {
+        "id": 70102,
+        "name": "Acacia02",
+        "displayName": "安卡希雅-时之重奏 缘音回响（成长后）",
+        "weaponType": "",
+        "element": "Snowbreak",
+        "gender": "Female",
+        "region": "",
+        "rarity": 5,
+        "directory": "chars/Acacia02",
+        "image": "Snowbreak/Acacia02.png",
+        "pmx": "variant_成长后/安卡希雅-时之重奏 缘音回响 成长后a1.0.pmx"
+    },
+    {
+        "id": 70103,
+        "name": "Acacia03",
+        "displayName": "安卡希雅-时之重奏（成长后）",
+        "weaponType": "",
+        "element": "Snowbreak",
+        "gender": "Female",
+        "region": "",
+        "rarity": 5,
+        "directory": "chars/Acacia03",
+        "image": "Snowbreak/Acacia03.png",
+        "pmx": "variant_成长后/安卡希雅-时之重奏 成长后a1.0.pmx"
+    },
+    {
+        "id": 70104,
+        "name": "Bubu03",
+        "displayName": "卜卜-灵鉴 绮恋星灵白（裸足）",
+        "weaponType": "",
+        "element": "Snowbreak",
+        "gender": "Female",
+        "region": "",
+        "rarity": 5,
+        "directory": "chars/Bubu03",
+        "image": "Snowbreak/Bubu03.png",
+        "pmx": "卜卜-灵鉴 绮恋星灵裸足a1.0.pmx"
+    },
+    {
+        "id": 70105,
+        "name": "Klorina01",
+        "displayName": "克罗瑞娜 皎月幽祈（变身后形态）",
+        "weaponType": "",
+        "element": "Snowbreak",
+        "gender": "Female",
+        "region": "",
+        "rarity": 5,
+        "directory": "chars/Klorina01",
+        "image": "Snowbreak/Klorina01.png",
+        "pmx": "克罗瑞娜-皎月幽祈（变身后形态）.pmx"
+    },
+    {
+        "id": 70106,
+        "name": "Klorina02",
+        "displayName": "克罗瑞娜（变身后形态）",
+        "weaponType": "",
+        "element": "Snowbreak",
+        "gender": "Female",
+        "region": "",
+        "rarity": 5,
+        "directory": "chars/Klorina02",
+        "image": "Snowbreak/Klorina02.png",
+        "pmx": "克罗瑞娜a1.0（变身后形态）.pmx"
+    },
+    {
+        "id": 70107,
+        "name": "Mia02",
+        "displayName": "米娅-星彩 暗空魅影（变色衣服）",
+        "weaponType": "",
+        "element": "Snowbreak",
+        "gender": "Female",
+        "region": "",
+        "rarity": 5,
+        "directory": "chars/Mia02",
+        "image": "Snowbreak/Mia02.png",
+        "pmx": "米娅-星彩 暗空魅影变色衣服a2.0.pmx"
+    },
+    {
+        "id": 70108,
+        "name": "Qing02",
+        "displayName": "晴-霆光 清光虔愿（丝袜）",
+        "weaponType": "",
+        "element": "Snowbreak",
+        "gender": "Female",
+        "region": "",
+        "rarity": 5,
+        "directory": "chars/Qing02",
+        "image": "Snowbreak/Qing02.png",
+        "pmx": "晴-霆光 清光虔愿丝袜a1.0.pmx"
+    }
+]
