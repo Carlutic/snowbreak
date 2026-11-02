@@ -1,0 +1,14 @@
+[
+    {
+        "id": 70001,
+        "name": "Bubu",
+        "weaponType": "",
+        "element": "Snowbreak",
+        "gender": "Female",
+        "region": "",
+        "rarity": 5,
+        "directory": "chars/Bubu",
+        "image": "Bubu.png",
+        "pmx": "卜卜-元气愈养.pmx"
+    }
+]
