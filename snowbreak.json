@@ -8,7 +8,7 @@
         "region": "",
         "rarity": 5,
         "directory": "chars/Bubu",
-        "image": "Bubu.png",
+        "image": "Snowbreak/Bubu.png",
         "pmx": "卜卜-元气愈养.pmx"
     },
     {
@@ -20,7 +20,7 @@
         "region": "",
         "rarity": 5,
         "directory": "chars/Longyan",
-        "image": "Longyan.png",
+        "image": "Snowbreak/Longyan.png",
         "pmx": "胧嫣-瑞狐 珠光曳影a1.0.pmx"
     }
 ]

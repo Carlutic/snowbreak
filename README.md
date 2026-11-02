@@ -9,8 +9,10 @@
 ```
 snowbreak.json          # 角色清单（网站启动时读取）
 skins.json              # 皮肤清单（当前为空）
-Bubu.png                # 角色缩略图（512x512，角色选择面板用）
-chars/Bubu/             # PMX 模型 + 贴图 + 作者规则文件
+Snowbreak/              # 角色缩略图（对标其它仓库的 Genshin/、HSR/、ZZZ/ 等目录）
+    Bubu.png
+    Longyan.png
+chars/<英文名>/          # PMX 模型 + 贴图 + 作者规则文件
 ```
 
 ## 清单格式（snowbreak.json）
@@ -25,9 +27,9 @@ chars/Bubu/             # PMX 模型 + 贴图 + 作者规则文件
         "gender": "Female",
         "region": "",
         "rarity": 5,
-        "directory": "chars/Bubu",      // 相对本仓库根目录
-        "image": "Bubu.png",            // 相对本仓库根目录
-        "pmx": "卜卜-元气愈养.pmx"       // 相对 directory
+        "directory": "chars/Bubu",          // 相对本仓库根目录
+        "image": "Snowbreak/Bubu.png",      // 相对本仓库根目录（缩略图放 Snowbreak/）
+        "pmx": "卜卜-元气愈养.pmx"           // 相对 directory
     }
 ]
 ```
@@ -38,7 +40,7 @@ chars/Bubu/             # PMX 模型 + 贴图 + 作者规则文件
 
 1. 新建 `chars/<英文名>/`，放入 `.pmx` 与全部贴图（文件名保持 PMX 内引用的原名，含中文也可以）。
 2. 在 `snowbreak.json` 里追加上面格式的一条，`id` 用 70002、70003……
-3. 生成 512x512 缩略图放仓库根目录，填到 `image`。
+3. 生成 512x512 缩略图放到 `Snowbreak/<英文名>.png`，填到 `image`。
 4. 本地把整个目录同步到 `model-viewer/res/snowbreak/` 后刷新网站即可（dev server 会自动拷贝新文件）。
 
 ## 版权与配布规则（重要，必读）
