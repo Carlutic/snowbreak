@@ -21,7 +21,8 @@ chars/<英文名>/          # PMX 模型 + 贴图 + 作者规则文件
 [
     {
         "id": 70001,                    // 首位数字 7 = Snowbreak 分类
-        "name": "Bubu",                 // 英文名（用于 URL slug：/bubu）
+        "name": "Bubu",                 // ASCII 名（用于 URL slug：/bubu、查重/查找）
+        "displayName": "卜卜-元气愈养",  // 可选，界面上显示的名字（可含中文）
         "weaponType": "",
         "element": "Snowbreak",
         "gender": "Female",
@@ -34,14 +35,17 @@ chars/<英文名>/          # PMX 模型 + 贴图 + 作者规则文件
 ]
 ```
 
-约定：`id` 以 7 开头（保证路由/筛选归到 Snowbreak 分类），`name` 用英文（slug 生成只保留 a-z0-9）。
+约定：`id` 以 7 开头（保证路由/筛选归到 Snowbreak 分类），`name` 必须是 ASCII（slug 只保留 a-z0-9），中文名放 `displayName`。
 
 ## 添加新角色
 
-1. 新建 `chars/<英文名>/`，放入 `.pmx` 与全部贴图（文件名保持 PMX 内引用的原名，含中文也可以）。
-2. 在 `snowbreak.json` 里追加上面格式的一条，`id` 用 70002、70003……
-3. 生成 512x512 缩略图放到 `Snowbreak/<英文名>.png`，填到 `image`。
+1. 新建 `chars/<ASCII 名>/`，放入 `.pmx` 与全部贴图（文件名保持 PMX 内引用的原名，含中文也可以）。
+2. 在 `snowbreak.json` 里追加上面格式的一条，`id` 顺延，`name` 用 ASCII、`displayName` 放中文全名。
+3. 生成 512x512 缩略图放到 `Snowbreak/<ASCII 名>.png`，填到 `image`。
 4. 推到 `main` 后等 1~2 分钟 GitHub Pages 重新发布，刷新网站即可（网站直接从 `https://carlutic.github.io/snowbreak/` 读取，不需要本地副本）。
+
+> 当前规模：48 个条目（2 个早期角色 + 神帝宇 46 个模型，覆盖 20 名角色/装甲），
+> 每个 `chars/<ASCII 名>/` 只放该文件夹的主 PMX + 全部贴图，其它变体（丝袜/裸足/变身形态等）暂未单独收录。
 
 ## 版权与配布规则（重要，必读）
 
