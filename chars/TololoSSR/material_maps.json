@@ -1,0 +1,14 @@
+{
+  "c_TololoSSR01_slg_body_d.png": {
+    "normal": "c_TololoSSR01_slg_body_n_std.png",
+    "rmo": "c_TololoSSR01_slg_body_orm.png"
+  },
+  "c_TololoSSR01_slg_cloth1_da.png": {
+    "normal": "c_TololoSSR01_slg_cloth1_n_std.png",
+    "rmo": "c_TololoSSR01_slg_cloth1_orm.png"
+  },
+  "c_TololoSSR01_slg_cloth2_da.png": {
+    "normal": "c_TololoSSR01_slg_cloth2_n_std.png",
+    "rmo": "c_TololoSSR01_slg_cloth2_orm.png"
+  }
+}
