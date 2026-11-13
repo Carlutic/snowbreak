@@ -1114,18 +1114,5 @@
   "directory": "chars/Yao05",
   "image": "Snowbreak/Yao05.png",
   "pmx": "肴-夜天光 暖夜情醺a1.0.pmx"
- },
- {
-  "id": 70087,
-  "name": "TololoSnowbreak",
-  "displayName": "托洛洛（Snowbreak 官方配布）",
-  "weaponType": "",
-  "element": "Snowbreak",
-  "gender": "Female",
-  "region": "",
-  "rarity": 5,
-  "directory": "chars/TololoSSR",
-  "image": "Snowbreak/Tololo.png",
-  "pmx": "TololoSSR - 配布版.pmx"
  }
 ]
